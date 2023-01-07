@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .position1,.position3{
+            width: 200px;
+            height: 140px;
+            background: red;
+            margin: 10px;
+        }
+        .position2{
+            width: 200px;
+            height: 140px;
+            background: rgb(255, 255, 18);
+            margin: 10px;
+        }
+        .position2{
+            position: relative;
+            left: 20px;
+            top: 50px;
+            z-index: -2;
+        }
+        .position3{
+            position: relative;
+            z-index: 1;
+        }
+        .position3{
+            position: absolute;
+            left: 50px;
+            top: 0px;
+        }
+        .main{
+            width: 700px;
+            height: 600px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1>lorem5</h1>
+    <h1>lorem5</h1>
+    <h1>lorem5</h1>
+    <h1>lorem5</h1>
+    <div class="main">
+        <div class="position1"></div>
+        <div class="position2"></div>
+        <div class="position3"></div>
+    </div>
+</body>
+</html>

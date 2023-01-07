@@ -1,0 +1,23 @@
+/* h1:hover{
+    color: red;
+    font-size: 60px;
+    background: orange;
+    
+} */
+.email:focus{
+    border: 1px solid red;
+    font-size: 30px;
+    border-radius: 32px;
+    color: blue;
+}
+.anchortag a{
+    margin: 3px;
+}
+.anchortag a:visited{
+    color: red;
+    text-decoration: double;
+}
+li:nth-child(3n){
+    color: red;
+
+}
